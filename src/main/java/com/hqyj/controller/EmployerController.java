@@ -40,7 +40,7 @@ public class EmployerController {
         //定义返回页面
         return "empList";
     }
-
+//修改页面
     @RequestMapping("updatePage.do")
     public String updatePage(@RequestParam("id") int id, ModelMap map) {
         Employer emp = service.selectByid(id);
